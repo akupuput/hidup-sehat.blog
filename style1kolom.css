@@ -89,11 +89,11 @@ footer {
 @media screen and (max-width:1080px)
 {
     .badan-artikel {
-        width: 280px;
+        width: 380px;
     }
  
     .kolom
     {
-        width: 260px;
+        width: 280px;
     }
 }
