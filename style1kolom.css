@@ -92,11 +92,7 @@ footer {
         width: 280px;
     }
  
-    .kolom-kiri {
-        width: 238px;
-    }
-    
-    .kolom-tengah, .kolom-kanan
+    .kolom
     {
         width: 260px;
     }
