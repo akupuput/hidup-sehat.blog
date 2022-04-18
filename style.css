@@ -1,0 +1,167 @@
+body {
+    background-color: gainsboro;
+}
+ 
+.badan-artikel {
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+
+ 
+header {
+    background-color: rgb(97, 82, 82);
+    color: white;
+    padding: 20px;
+}
+ 
+header h2 {
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+ 
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(112, 133, 112);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.navigasi li {
+    float: left;
+}
+ 
+.navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover {
+    background-color:rgb(97, 82, 82);
+    transition-duration: 2s;
+}
+ 
+.beranda {
+    margin-bottom: 15px;
+}
+ 
+.beranda img {
+
+    width: 100%;
+    height: 330px;
+}
+ 
+section {
+    float: left;
+    
+}
+
+.kotak {
+    border: 1px solid gainsboro;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+ 
+.kotak h4 {
+    background-color: rgb(97, 82, 82);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 13px;
+}
+ 
+.kotak img {
+    width: 100%;
+}
+ 
+.kotak p {
+    margin-bottom: 10px;
+}
+ 
+.kolom-kiri {
+    width: 250px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 15px;
+}
+ 
+.kolom-tengah {
+    width: 780px;
+    margin-right: 10px;
+    float: left;
+}
+ 
+.tanggal-posting {
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+ 
+.tombol-selengkapnya {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    width: 120px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(112, 133, 112);
+    margin-top: 50px;
+}
+
+ 
+.kolom-kanan {
+    width: 250px;
+    float: left;
+}
+ 
+.kolom-kanan, .kolom-kiri, .kolom-tengah {
+    margin-bottom: 15px;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(97, 82, 82);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+ 
+.new-artikel ul {
+    list-style-type: none;
+}
+ 
+.new-artikel ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 13px;
+    border-bottom: 1px solid gainsboro;
+    margin-bottom: 12px;
+    color: black;
+}
+ 
+.news-artikel ul li a:hover {
+    color: rgb(112, 133, 112);
+    border-bottom: 5px double chocolate;
+    transition-duration: 2s;
+}
+
+a :hover {
+    color:black;
+    }
+
+a:visited {
+    color:black;
+    }

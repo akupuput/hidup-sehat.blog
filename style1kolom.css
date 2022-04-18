@@ -1,0 +1,132 @@
+body {
+    background-color: gainsboro;
+}
+ 
+.badan-artikel {
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header {
+    background-color: rgb(97, 82, 82);
+    color: white;
+    padding: 20px;
+}
+ 
+header h2 {
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+
+ 
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(112, 133, 112);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+.navigasi li {
+    float: left;
+}
+ 
+.navigasi li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+ 
+.navigasi li a:hover {
+    background-color:rgb(97, 82, 82);
+    transition-duration: 2s;
+}
+ 
+.beranda {
+    margin-bottom: 15px;
+}
+ 
+.beranda img {
+    display: block;
+    width: 100%; 
+    height: 330px;
+}
+ 
+.kolom {
+    background: none;
+    color: rgb(97, 82, 82);
+    margin-bottom: 15px;
+    padding: 10px;
+    float: left;
+}
+ 
+.tanggal-posting {
+    color: gray;
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(97, 82, 82);
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+/*untuk tablet*/
+@media screen and (max-width:1080px)
+{
+    .badan-utama
+    {
+        width: 100%;
+    }
+ 
+    .menu-kiri
+    {
+        width: 25%;
+    }
+ 
+    .menu-tengah
+    {
+        width: 68%;
+        float: right;
+    }
+ 
+    .menu-kanan
+    {
+        clear: both;
+        float: none;
+        width: 100%;
+    }
+}
+ 
+/*untuk android*/
+@media screen and (max-width:780px)
+{
+    header h2, header p
+    {
+        text-align: center;
+    }
+ 
+    .menu-kiri, .menu-kanan, .menu-tengah
+    {
+        float: none;
+        width: 100%;
+    }
+ 
+    .navigasi li
+    {
+        float: none;
+    }
+}
