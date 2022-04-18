@@ -112,21 +112,18 @@ footer {
 }
  
 /*untuk android*/
-@media screen and (max-width:780px)
+@media screen and (max-width:1080px)
 {
-    header h2, header p
-    {
-        text-align: center;
+    .badan-artikel {
+        width: 280px;
     }
  
-    .menu-kiri, .menu-kanan, .menu-tengah
-    {
-        float: none;
-        width: 100%;
+    .kolom-kiri {
+        width: 238px;
     }
- 
-    .navigasi li
+    
+    .kolom-tengah, .kolom-kanan
     {
-        float: none;
+        width: 260px;
     }
 }
