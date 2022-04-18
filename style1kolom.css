@@ -84,32 +84,6 @@ footer {
     text-align: center;
 }
  
-/*untuk tablet*/
-@media screen and (max-width:1080px)
-{
-    .badan-utama
-    {
-        width: 100%;
-    }
- 
-    .menu-kiri
-    {
-        width: 25%;
-    }
- 
-    .menu-tengah
-    {
-        width: 68%;
-        float: right;
-    }
- 
-    .menu-kanan
-    {
-        clear: both;
-        float: none;
-        width: 100%;
-    }
-}
  
 /*untuk android*/
 @media screen and (max-width:1080px)
